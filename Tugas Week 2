@@ -1,0 +1,48 @@
+my_tuple6 = (7,5,2,(7,5),[6,3])
+
+print(my_tuple6[-1])
+
+#input
+my_tuple6 = (1,1,2,2)
+
+print([])
+
+#input
+my_tuple6 = (1,2,3,(1,2,3),[4])
+
+print(my_tuple6[-1])
+
+
+a = input ()
+b = input ()
+
+a1 = int (2)
+b1 = int (4)
+
+print( a1+b1)
+
+######################################################################################################################
+
+a = input ()
+b = input ()
+
+a1 = int (2)
+b1 = int (9)
+
+print( a1+b1)
+import collections
+string='js js golang ruby ruby js js'
+li=string.split(' ')
+ambil=collections.Counter(li).most_common()
+
+for kata in ambil:
+    print("%s\t: %d"%(kata[0],kata[1]))
+
+####################################################################################################################
+import collections
+string='danu danu alif indra indra kurniadi indra'
+li=string.split(' ')
+ambil=collections.Counter(li).most_common()
+
+for kata in ambil:
+    print("%s\t: %d"%(kata[0],kata[1]))
